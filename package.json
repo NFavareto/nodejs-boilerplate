@@ -5,18 +5,20 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": " node ./src/app.js",
-    "dev": "nodemon ./src/app.js"
+    "start": " node ./src/index.js",
+    "dev": "nodemon ./src/index.js"
   },
   "dependencies": {
+    "body-parser": "^1.18.3",
     "dotenv-safe": "^6.1.0",
-    "ejs": "^2.6.1",
     "express": "^4.16.4",
+    "express-validator": "^5.3.1",
+    "path": "^0.12.7",
+    "pug": "^2.0.3",
     "request": "^2.88.0",
     "request-promise": "^4.2.2"
   },
   "devDependencies": {
-    
     "nodemon": "^1.18.10",
     "eslint": "^5.12.0",
     "eslint-config-airbnb-base": "^13.1.0",
@@ -36,5 +38,4 @@
     "url": "https://github.com/NFavareto/nodejs-boilerplate/issues"
   },
   "homepage": "https://github.com/NFavareto/nodejs-boilerplate#readme"
-  
 }
